@@ -661,7 +661,7 @@
   fuel_capacity: 52
   abrp_name:
   reg: VR3FPHNSTP.*
-   - !ElecModel
+- !ElecModel
   name: corsa f electric
   battery_power: 48.1
   fuel_capacity: 0
