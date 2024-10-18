@@ -14,8 +14,8 @@ from psa_car_controller.psacc.application.charge_control import ChargeControl, C
 
 logger = logging.getLogger(__name__)
 
-APP_VERSION = "1.48.2"
-GITHUB_USER = "flobz"
+APP_VERSION = "3.5.3"
+GITHUB_USER = "EmielZ"
 GITHUB_REPO = "psa_apk"
 TIMEOUT_IN_S = 10
 app = PSACarController()
@@ -48,7 +48,7 @@ class InitialSetup:
                                     "User-Agent": "okhttp/2.3.0"
                                 },
                                 params={"jsonRequest": json.dumps(
-                                    {"siteCode": apk_parser.site_code, "culture": "fr-FR", "action": "authenticate",
+                                    {"siteCode": apk_parser.site_code, "culture": "nl-NL", "action": "authenticate",
                                      "fields": {"USR_EMAIL": {"value": client_email},
                                                 "USR_PASSWORD": {"value": client_password}}
                                      }
